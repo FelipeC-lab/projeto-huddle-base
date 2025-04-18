@@ -1,0 +1,96 @@
+@media (max-width:500px){
+
+body {
+    background: url(../images/bg-mobile.svg) no-repeat top center;
+    background-size: cover;
+    background-color: var(--bg-color);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    margin: 30px 20px;
+}
+
+/* MAIN */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.container .mockup {
+    max-width: 100%;
+}
+
+.container .text-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.container .text-info h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.container .text-info p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.container .text-info .register {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 13px 45px;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--bg-color);
+    align-self: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container .text-info .register:hover {
+    background-color: var(--bg-hover);
+    color: #fff;
+}
+
+/* FOOTER */
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.social a:hover {
+    color: var(--bg-hover);
+    border-color: var(--bg-hover);
+}
+
+}
